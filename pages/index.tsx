@@ -17,6 +17,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js! Lorem ipsum dolor sit amet, consectetur adipisci elit</a>
           <button className="btn btn-primary m-3">Button Primary</button>
+          <button className="btn btn-primary m-3">Button Primary</button>
           <img src="C:\Users\seora\Pictures\Uplay\Anno 1800\Anno 18002021-4-4-0-7-49.jpg" className="img-fluid" alt="..."></img>
         </h1>
 
