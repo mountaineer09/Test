@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 const Home: NextPage = () => {
   return (
@@ -14,7 +15,9 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js! Lorem ipsum dolor sit amet, consectetur adipisci elit</a>
+          <button className="btn btn-primary m-3">Button Primary</button>
+          <img src="C:\Users\seora\Pictures\Uplay\Anno 1800\Anno 18002021-4-4-0-7-49.jpg" className="img-fluid" alt="..."></img>
         </h1>
 
         <p className={styles.description}>
