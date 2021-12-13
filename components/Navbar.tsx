@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 
 const Navbar= () => {
@@ -10,8 +11,12 @@ const Navbar= () => {
       // <Link href={'about'}><a>About</a></Link>
      //  <Link href={'/'}><a>Chalet Listing</a></Link>
    //  </nav>
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg avbar navbar-dark bg-primary">
   <div className="container-fluid">
+  <a href="#" className="navbar-left"><img 
+        className="m-2 w-10 sm:w-20 self-center"                                          
+        src="\lodge.PNG" width="45" alt=""
+      /></a>
     <a className="navbar-brand" href="#">Chalet Lum D’Amount</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
