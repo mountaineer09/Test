@@ -20,6 +20,19 @@ titre : "mon titre", description : "ma description"
     <div>
         <Navbar></Navbar>
         <CardTitle></CardTitle>
+        <div className="card bg-dark text-white">
+        <img 
+        className="card-img swiper-slide"                                          
+        src="\DSC_0341.JPG" alt=""
+      />
+  <div className="card-img-overlay">
+    <h5 className="card-title text-center col-md-8 col-xs-12 offset-md-2">BIENVENU AU CHALET LUM D’AMONT</h5>
+    <p className="card-text text-center col-md-8 col-xs-12 offset-md-2">Le Chalet Lum d’Amont en Ariège est un chalet pouvent accueillir des groupes tout comme des familles</p><br/>
+    <p className="card-text text-center col-md-8 col-xs-12 offset-md-2">Dans un cadre privilégié au coeur des Pyrénées</p>
+    <p className="card-text text-center col-md-8 col-xs-12 offset-md-2">Profitez d'un air pur et vivifiant dans un lieu chaleureux</p><br/>
+    <p className="card-text text-center col-md-8 col-xs-12 offset-md-2"></p><br/>
+  </div>
+</div>
         <h1>Homepage</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
