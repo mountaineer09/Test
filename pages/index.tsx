@@ -4,10 +4,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-
-
+import CardTitle from '../components/CardTitle'
 import 'bootstrap/dist/css/bootstrap.css'
 import { isTargetLikeServerless } from 'next/dist/server/config'
+
 
 
 
@@ -19,6 +19,7 @@ titre : "mon titre", description : "ma description"
   return (
     <div>
         <Navbar></Navbar>
+        <CardTitle></CardTitle>
         <h1>Homepage</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
