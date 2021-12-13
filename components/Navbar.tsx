@@ -12,7 +12,7 @@ const Navbar= () => {
    //  </nav>
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Chalet Lum D`&apos;`Amount</a>
+    <a className="navbar-brand" href="#">Chalet Lum D’Amount</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,7 +22,7 @@ const Navbar= () => {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Lum d`&apos;`Amount</a>
+          <a className="nav-link" href="#">Lum d’Amount</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Pricing</a>
