@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 import Tarifs from '../pages/tarifs';
 import Home from '../pages/home';
+import Lum from '../pages/lum';
 
 const Navbar = () => {
   return (
@@ -29,7 +30,7 @@ const Navbar = () => {
               <Link href="/home"><a className="nav-link active" aria-current="page" href="#">Home</a></Link>
             </li>
             <li className="nav-item">
-              <Link href="/home"><a className="nav-link" href="#">Lum d’Amont</a></Link>
+              <Link href="/lum"><a className="nav-link" href="#">Lum d’Amont</a></Link>
             </li>
             <li className="nav-item">
               <Link href='/tarifs'><a className="nav-link" href="#">Tarifs</a></Link>
@@ -39,9 +40,11 @@ const Navbar = () => {
                 Réservation
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a className="dropdown-item" href="#">Action</a></li>
-                <li><a className="dropdown-item" href="#">Another action</a></li>
-                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                <li><a className="dropdown-item" href="#">Calendrier</a></li>
+                <li><a className="dropdown-item" href="#">Contacts</a></li>
+                <li><a className="dropdown-item" href="#">Partenaires</a></li>
+                <li><a className="dropdown-item" href="#">Galerie</a></li>
+                <li><a className="dropdown-item" href="#">Documents</a></li>
               </ul>
             </li>
           </ul>
