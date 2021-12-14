@@ -10,7 +10,7 @@ const Home = () => {
                     <div className="swiper-slide" >
                         <img
                             className="img-fluid rounded-start"
-                            src="\DSC_0341.JPG" alt=""
+                            src="\feulum.JPG" alt=""
                         />
                         <div className="overlay dark-2"></div>
 
