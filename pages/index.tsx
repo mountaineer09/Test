@@ -11,7 +11,8 @@ import { isTargetLikeServerless } from 'next/dist/server/config'
 
 
 
-export default function Home() { 
+
+export default function Index() { 
   const text: string = "Next.js! L'orem ipsum dolor sit amet, consectetur adipisci elit" 
   const props: any = {
 titre : "mon titre", description : "ma description" 

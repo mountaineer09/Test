@@ -16,33 +16,36 @@ const Tarifs= () => {
 <div className="row">
   <div className="col-md-7"><p className="large"><div className="row">
 <div className="col-md-12">
-<p> SEMAINE:du Samedi 16h00 au Samedi suivant 10h00. Voir tarifs &agrave; droite.&nbsp;<br />
-<span>- WEEK END ou 2 premiers jours de location: &euro; 300.00.&nbsp;</span>(en basse saison uniquement et hors vacances scolaires)<br />
-<span>&nbsp;100 &euro; / jour.&nbsp;</span>(en basse saison uniquement et hors vacances scolaires)<br />
-<span>Un acompte</span>&nbsp;de 30% du montant de la r&eacute;servation sera demand&eacute; au moment de la r&eacute;servation.<br />
-<span>Le calendrier ci-dessous concerne &quot;LES&nbsp;NUITS&nbsp;DE:&quot;&nbsp;</span>(Si vous souhaitez rester du Samedi au Samedi suivant, il vous faudra alors cocher dans le calendrier, les nuits du Samedi au Vendredi suivant).</p>
+<p>Pour toute demande d'information ou questions, vous pouvez nous contacter à l'adresse contact@lum-damont.com<br />
+<span>Télécharger le bulletin d'inscription</span><br />
+<span></span><br />
+<span></span><br />
+<span></span></p>
 
-<p><span><strong>Un service &quot;tout compris&quot;</strong></span><br />
-<span>Parce qu&#39;il r&egrave;gne&nbsp;au Gustou&nbsp;un esprit de confiance et de cordialit&eacute;, parce que nous avons fait le choix de la qualit&eacute;, nous proposons un service tout compris.</span></p>
+<p><span><strong></strong></span><br />
+<span></span></p>
 
 <div className="row two-col">
 <div className="col-md-6 col-1">
-<p><strong>Prestations offertes:</strong><br />
-- l&#39;eau, l&#39;&eacute;lectricit&eacute;.<br />
-- le bois pour la chemin&eacute;e et le barbecue.<br />
-- les produits de base (&eacute;picerie et entretien)</p>
+<p><strong>Conditions de réservation:</strong><br />
+- Bons CAF et Chèques vacances acceptés<br />
+- Cotisation annuelle obligatoire de 1.00 euro par adulte ou de 15.00 euros par groupe constitué<br />
+- Ne sont prises en compte uniquement les réservations accompagnées d'un acompte de 25,00% du montant total arrondi à  l'euro supérieur<br />
+- Les tarifs indiqués ne comprennent pas la taxe de séjour qui est calculée sur la base des règles en vigueur<br />
+- Une caution de 300,00 euros est demandée en début séjour et encaissée seulement en cas de dégâts<br />
+</p>
 </div>
 
 <div className="col-md-6 col-2">
-<p>- le linge de maison (lits, toilette)<br />
-- les taxes de s&eacute;jour.<br />
-- le m&eacute;nage de fin de s&eacute;jour.<br />
-- un acc&egrave;s internet wifi illimit&eacute;.</p>
+<p><br />
+<br />
+<br />
+</p>
 </div>
 </div>
 
 <blockquote>
-<p>&Agrave; votre arriv&eacute;e, vos lits seront pr&eacute;par&eacute;s, seuls les rangements attendront vos effets et le r&eacute;frig&eacute;rateur vos courses...</p>
+<p>&Agrave; votre arrivée, vos lits seront préparés, seuls les rangements attendront vos effets et le réfrigérateur vos courses...</p>
 </blockquote>
 </div>
 </div>
@@ -53,77 +56,31 @@ const Tarifs= () => {
  <table className="table table-bordered table-striped">
     <thead>
       <tr>
-        <th className="text-center">Du </th>
-        <th className="text-center">Au </th>
-        <th className="text-center">Tarifs </th>
-        <th className="text-center">Week end</th>
+        <th className="text-center">Adultes</th>
+
       </tr>
     </thead>
     <tbody>
       
       <tr>
-        <td className="text-center">25/09/2021</td>
-        <td className="text-center">24/12/2021</td>
-        <td className="text-right">700,00 &euro;</td>
-        <td className="text-right">350,00 &euro;</td>
+        <td className="text-center">Tarifs famille</td>
       </tr>
       
       <tr>
-        <td className="text-center">25/12/2021</td>
-        <td className="text-center">07/01/2022</td>
-        <td className="text-right">1300,00 &euro;</td>
-        <td className="text-right">0,00 &euro;</td>
+        <td className="text-center">Adultes</td>
+        <td className="text-center">47,00 &euro;</td>
       </tr>
       
       <tr>
-        <td className="text-center">08/01/2022</td>
-        <td className="text-center">01/07/2022</td>
-        <td className="text-right">700,00 &euro;</td>
-        <td className="text-right">350,00 &euro;</td>
+        <td className="text-center">Enfants de moins de 13 ans</td>
+        <td className="text-center">37,00 &euro;</td>
       </tr>
       
       <tr>
-        <td className="text-center">02/07/2022</td>
-        <td className="text-center">15/07/2022</td>
-        <td className="text-right">950,00 &euro;</td>
-        <td className="text-right">0,00 &euro;</td>
+        <td className="text-center">Enfants de moins de 5 ans</td>
+        <td className="text-center">Gratuit</td>
       </tr>
-      
-      <tr>
-        <td className="text-center">16/07/2022</td>
-        <td className="text-center">26/08/2022</td>
-        <td className="text-right">1300,00 &euro;</td>
-        <td className="text-right">0,00 &euro;</td>
-      </tr>
-      
-      <tr>
-        <td className="text-center">27/08/2022</td>
-        <td className="text-center">30/09/2022</td>
-        <td className="text-right">950,00 &euro;</td>
-        <td className="text-right">0,00 &euro;</td>
-      </tr>
-      
-      <tr>
-        <td className="text-center">01/10/2022</td>
-        <td className="text-center">23/12/2022</td>
-        <td className="text-right">700,00 &euro;</td>
-        <td className="text-right">350,00 &euro;</td>
-      </tr>
-      
-      <tr>
-        <td className="text-center">24/12/2022</td>
-        <td className="text-center">06/01/2023</td>
-        <td className="text-right">1300,00 &euro;</td>
-        <td className="text-right">0,00 &euro;</td>
-      </tr>
-      
-      <tr>
-        <td className="text-center">07/01/2023</td>
-        <td className="text-center">30/06/2023</td>
-        <td className="text-right">700,00 &euro;</td>
-        <td className="text-right">350,00 &euro;</td>
-      </tr>
-      
+
     </tbody>
   </table>
   
