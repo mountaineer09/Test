@@ -2,7 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link'
 import Tarifs from '../pages/tarifs';
 import Home from '../pages/home';
+import Reservation from '../pages/reservation';
 import Lum from '../pages/lum';
+
 
 const Navbar = () => {
   return (
@@ -40,7 +42,7 @@ const Navbar = () => {
                 Réservation
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a className="dropdown-item" href="#">Calendrier</a></li>
+                <Link href="/reservation"><li><a className="dropdown-item" href="#">Calendrier</a></li></Link>
                 <li><a className="dropdown-item" href="#">Contacts</a></li>
                 <li><a className="dropdown-item" href="#">Partenaires</a></li>
                 <li><a className="dropdown-item" href="#">Galerie</a></li>

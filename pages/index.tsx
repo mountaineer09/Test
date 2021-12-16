@@ -8,6 +8,7 @@ import CardTitle from '../components/CardTitle'
 import Map from '../components/Map'
 import Caroussel from '../components/Caroussel'
 import Accordion from '../components/Accordion'
+import CalendarApi from '../components/CalendarApi'
 import 'bootstrap/dist/css/bootstrap.css'
 import { isTargetLikeServerless } from 'next/dist/server/config'
 
@@ -23,6 +24,7 @@ export default function Index() {
   return (
     <div>
       <Navbar></Navbar>
+
       <CardTitle></CardTitle>
       <div className="card bg-dark text-white">
         <img
