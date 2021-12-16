@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import CardTitle from '../components/CardTitle'
 import Map from '../components/Map'
 import Caroussel from '../components/Caroussel'
+import Caroussel2 from '../components/Caroussel2'
 import Accordion from '../components/Accordion'
 import CalendarApi from '../components/CalendarApi'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -93,7 +94,7 @@ export default function Index() {
                   <p className="card-text"><img src="https://img.icons8.com/officexs/16/000000/forward.png" />D’un accès WIFI dans tout le chalet, gratuit et illimité<br /></p>
                 </p>
               </div>
-              <Caroussel></Caroussel><br />
+              <Caroussel2></Caroussel2><br />
             </div>
 
 

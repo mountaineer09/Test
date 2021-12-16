@@ -4,18 +4,16 @@ import Tarifs from '../pages/tarifs';
 import Home from '../pages/home';
 import Reservation from '../pages/reservation';
 import Lum from '../pages/lum';
+import Contacts from '../pages/contacts';
+import Documents from '../pages/documents';
+import Galeries from '../pages/galerie';
+import Partenaires from '../pages/partenaires';
+
 
 
 const Navbar = () => {
   return (
-    // <nav>
-    // <div className= "logo">
-    //   <h1>Chalet</h1>
-    // </div>
-    // <Link href={'/'}><a>Home</a></Link>
-    // <Link href={'about'}><a>About</a></Link>
-    //  <Link href={'/'}><a>Chalet Listing</a></Link>
-    //  </nav>
+
     <nav className="navbar navbar-expand-lg avbar navbar-dark bg-primary">
       <div className="container-fluid">
         <a href="#" className="navbar-left"><img
@@ -43,16 +41,16 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <Link href="/reservation"><li><a className="dropdown-item" href="#">Calendrier</a></li></Link>
-                <li><a className="dropdown-item" href="#">Contacts</a></li>
-                <li><a className="dropdown-item" href="#">Partenaires</a></li>
-                <li><a className="dropdown-item" href="#">Galerie</a></li>
-                <li><a className="dropdown-item" href="#">Documents</a></li>
+                <Link href="/contacts"><li><a className="dropdown-item" href="#">Contacts</a></li></Link>
+                <Link href="/partenaires"><li><a className="dropdown-item" href="#">Partenaires</a></li></Link>
+                <Link href="/galerie"><li><a className="dropdown-item" href="#">Galerie</a></li></Link>
+                <Link href="/documents"><li><a className="dropdown-item" href="#">Documents</a></li></Link>
               </ul>
             </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+          </ul >
+        </div >
+      </div >
+    </nav >
   );
 }
 
