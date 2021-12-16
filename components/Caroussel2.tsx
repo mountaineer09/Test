@@ -37,6 +37,7 @@ const Caroussel2 = () => {
                                 </div>
                             </div>
                             <div className="carousel-item">
+
                                 <img className="d-block img-fluid" src="\room1.JPG" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h3>Mountain</h3>
