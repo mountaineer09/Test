@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Caroussel2 = () => {
     return (
         <div className="container">

@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Image from 'next/image';
 
 const Galeries = () => {
     return (
@@ -28,7 +29,7 @@ const Galeries = () => {
                     <div className="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" />
+                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" alt="..." />
                             <div className="content-details fadeIn-top">
                                 <h3>This is a title</h3>
                                 <p>This is a short description</p>
@@ -42,7 +43,7 @@ const Galeries = () => {
                     <div className="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" />
+                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" alt="..." />
                             <div className="content-details fadeIn-left">
                                 <h3>This is a title</h3>
                                 <p>This is a short description</p>
@@ -56,7 +57,7 @@ const Galeries = () => {
                     <div className="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" />
+                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" alt="..." />
                             <div className="content-details fadeIn-right">
                                 <h3>This is a title</h3>
                                 <p>This is a short description</p>
@@ -70,7 +71,7 @@ const Galeries = () => {
                     <div className="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" />
+                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" alt="..." />
                             <div className="content-details fadeIn-top fadeIn-left">
                                 <h3>This is a title</h3>
                                 <p>This is a short description</p>
@@ -85,7 +86,7 @@ const Galeries = () => {
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div className="content-overlay"></div>
 
-                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" />
+                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" alt="..." />
                             <div className="content-details fadeIn-top fadeIn-right">
                                 <h3>This is a title</h3>
                                 <p>This is a short description</p>
@@ -99,7 +100,7 @@ const Galeries = () => {
                     <div className="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" />
+                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" alt="..." />
                             <div className="content-details fadeIn-bottom fadeIn-left">
                                 <h3>This is a title</h3>
                                 <p>This is a short description</p>
@@ -113,7 +114,7 @@ const Galeries = () => {
                     <div className="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" />
+                            <img className="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362" alt="..." />
                             <div className="content-details fadeIn-bottom fadeIn-right">
                                 <h3>This is a title</h3>
                                 <p>This is a short description</p>
