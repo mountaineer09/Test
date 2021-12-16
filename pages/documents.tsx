@@ -12,7 +12,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <img className="card__image" src="https://source.unsplash.com/300x225/?wave" alt="wave" />
+                            <Image className="card__image" src="https://source.unsplash.com/300x225/?wave" alt="wave" />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -38,7 +38,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <img className="card__image" src="https://source.unsplash.com/300x225/?beach" alt="beach" />
+                            <Image className="card__image" src="https://source.unsplash.com/300x225/?beach" alt="beach" />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -64,7 +64,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <img className="card__image" src="https://source.unsplash.com/300x225/?mountain" alt="mountain" />
+                            <Image className="card__image" src="https://source.unsplash.com/300x225/?mountain" alt="mountain" />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
