@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 import Tarifs from '../pages/tarifs';
 import Home from '../pages/home';
-import Reservation from '../pages/reservation';
+import Booking from '../pages/booking';
 import Lum from '../pages/lum';
 import Contacts from '../pages/contacts';
 import Documents from '../pages/documents';
