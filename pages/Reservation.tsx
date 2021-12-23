@@ -4,12 +4,13 @@ import Caroussel from "../components/Caroussel2";
 
 const Reservation = () => {
     return (
-        <div className="container">
+        <div>
             <Navbar></Navbar>
-            <CalendarApi></CalendarApi>
-            <Caroussel></Caroussel>
+            <div className="container">
 
+                <CalendarApi></CalendarApi>
 
+            </div>
         </div>
     );
 }
