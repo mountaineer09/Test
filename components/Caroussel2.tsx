@@ -17,20 +17,20 @@ const Caroussel2 = () => {
 
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img className="d-block img-fluid" src="\chalet.JPG" alt="..." />
+                                <Image className="card__image" src="/unsplash.jpg" width='300px' height='300px' alt='ok' />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h1>Mountain</h1>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block img-fluid" src="\bathroom1.JPG" alt="..." />
+                                <Image className="card__image" src="/unsplash2.jpg" width='300px' height='300px' alt='ok' />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h3>Mountain</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block img-fluid" src="\groupe.JPG" alt="..." />
+                                <Image className="card__image" src="/unsplash3.jpg" width='300px' height='300px' alt='ok' />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h3>Mountain</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
@@ -38,7 +38,7 @@ const Caroussel2 = () => {
                             </div>
                             <div className="carousel-item">
 
-                                <img className="d-block img-fluid" src="\room1.JPG" alt="..." />
+                                <Image className="card__image" src="/unsplash4.jpg" width='300px' height='300px' alt='ok' />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h3>Mountain</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>

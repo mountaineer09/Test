@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 
 const CalendarApi = () => {
@@ -20,7 +21,7 @@ const CalendarApi = () => {
                                 <span className="inner">
 
 
-                                    <a className="ico-rounded " href="\chalet.JPG" data-fancybox="gallery" data-caption="Le chalet" data-plugin-options='{"type":"image"}'>
+                                    <a className="ico-rounded " href="/unsplash.jpg" data-fancybox="gallery" data-caption="Le chalet" data-plugin-options='{"type":"image"}'>
                                         <span className="fa fa-search fs-20"></span>
                                     </a>
 
@@ -29,7 +30,7 @@ const CalendarApi = () => {
                                 </span>
                             </span>
 
-                            <img className="d-block w-50" src="\chalet.JPG" width="600" height="399" alt="..." />
+                            <Image className="card__image" src="/unsplash.jpg" width='300px' height='300px' alt='ok' />
 
                         </figure>
                         <p>Le chalet</p>
@@ -48,7 +49,7 @@ const CalendarApi = () => {
                                 <span className="inner">
 
 
-                                    <a className="ico-rounded " href="\pisteski1.JPG" data-fancybox="gallery" data-caption="Les pistes" data-plugin-options='{"type":"image"}'>
+                                    <a className="ico-rounded " href="/unsplash2.jpg" data-fancybox="gallery" data-caption="Les pistes" data-plugin-options='{"type":"image"}'>
                                         <span className="fa fa-search fs-20"></span>
                                     </a>
 
@@ -57,7 +58,7 @@ const CalendarApi = () => {
                                 </span>
                             </span>
 
-                            <img className="d-block w-50" src="\pisteski1.JPG" width="600" height="399" alt="..." />
+                            <Image className="card__image" src="/unsplash2.jpg" width='300px' height='300px' alt='ok' />
 
                         </figure>
                         <p>Les pistes</p>
@@ -76,7 +77,7 @@ const CalendarApi = () => {
                                 <span className="inner">
 
 
-                                    <a className="ico-rounded " href="\pisteski2.JPG" data-plugin-options='{"type":"image"}'>
+                                    <a className="ico-rounded " href="/unsplash3.jpg" data-plugin-options='{"type":"image"}'>
                                         <span className="fa fa-search fs-20"></span>
                                     </a>
 
@@ -85,7 +86,7 @@ const CalendarApi = () => {
                                 </span>
                             </span>
 
-                            <img className="d-block w-50" src="\pisteski2.JPG" width="600" height="399" alt="..." />
+                            <Image className="card__image" src="/unsplash3.jpg" width='300px' height='300px' alt='ok' />
 
                         </figure>
                         <p>Encore les pistes ^^</p>
@@ -104,7 +105,7 @@ const CalendarApi = () => {
                                 <span className="inner">
 
 
-                                    <a className="ico-rounded " href="\terrasselum.JPG" data-fancybox="gallery" data-caption="Sur la terrasse" data-plugin-options='{"type":"image"}'>
+                                    <a className="ico-rounded " href="/unsplash4.jpg" data-fancybox="gallery" data-caption="Sur la terrasse" data-plugin-options='{"type":"image"}'>
                                         <span className="fa fa-search fs-20"></span>
                                     </a>
 
@@ -113,7 +114,7 @@ const CalendarApi = () => {
                                 </span>
                             </span>
 
-                            <img className="d-block w-50" src="\terrasselum.JPG" width="600" height="399" alt="..." />
+                            <Image className="card__image" src="/unsplash4.jpg" width='300px' height='300px' alt='ok' />
 
                         </figure>
                         <p>Sur la terrassee</p>
@@ -132,7 +133,7 @@ const CalendarApi = () => {
                                 <span className="inner">
 
 
-                                    <a className="ico-rounded " href="\foretneige.JPG" data-fancybox="gallery" data-caption="Foret des Mont d'Olmes sous la neige" data-plugin-options='{"type":"image"}'>
+                                    <a className="ico-rounded " href="/unsplash6.jpg" data-fancybox="gallery" data-caption="Foret des Mont d'Olmes sous la neige" data-plugin-options='{"type":"image"}'>
                                         <span className="fa fa-search fs-20"></span>
                                     </a>
 
@@ -141,7 +142,7 @@ const CalendarApi = () => {
                                 </span>
                             </span>
 
-                            <img className="d-block w-50" src="\foretneige.JPG" width="600" height="399" alt="..." />
+                            <Image className="card__image" src="/unsplash6.jpg" width='300px' height='300px' alt='ok' />
 
                         </figure>
                         <p>Foret des Mont d'Olmes sous la neige</p>
@@ -150,7 +151,7 @@ const CalendarApi = () => {
 
                 </div>
 
-                <a href="/fr/339_l*exterieur-de-la-maison.html" className="btn btn-default m-20">Voir toutes les images</a>
+                <a href="/unsplash6.jpg" className="btn btn-default m-20">Voir toutes les images</a>
             </div>
 
 

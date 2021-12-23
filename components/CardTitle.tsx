@@ -8,10 +8,7 @@ const CardTitle = () => {
         <div className="card mb-3">
             <div className="row g-0">
                 <div className="col-md-4">
-                    <img
-                        className="img-fluid rounded-start"
-                        src="\DSC_0341.JPG" alt=""
-                    />
+                    <Image className="card__image" src="/unsplash.jpg" width='300px' height='300px' alt='ok' />
                 </div>
 
                 <div className="col-md-8">

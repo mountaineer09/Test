@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 const Home = () => {
     return (
@@ -9,10 +10,7 @@ const Home = () => {
                 <div className="swiper-wrapper">
 
                     <div className="swiper-slide" >
-                        <img
-                            className="img-fluid rounded-start"
-                            src="\feulum.JPG" alt=""
-                        />
+                        <Image className="card__image" src="/unsplash.jpg" width='300px' height='300px' alt='ok' />
                         <div className="overlay dark-2"></div>
 
                         <div className="display-table">

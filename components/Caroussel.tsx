@@ -18,21 +18,21 @@ const Caroussel = () => {
             <div className="carousel-inner">
 
                 <div className="carousel-item active">
-                    <img className="d-block w-100" src="\chalet.JPG" width="600" height="399" alt="..." />
+                    <Image className="card__image" src="/unsplash2.jpg" width='300px' height='300px' alt='ok' />
                 </div>
 
                 <div className="carousel-item">
-                    <img className="d-block w-100" src="\pisteski1.JPG" width="600" height="399" alt="..." />
-                </div>
-
-
-                <div className="carousel-item">
-                    <img className="d-block w-100" src="\terrasselum.JPG" width="600" height="399" alt="..." />
+                    <Image className="card__image" src="/unsplash3.jpg" width='300px' height='300px' alt='ok' />
                 </div>
 
 
                 <div className="carousel-item">
-                    <img className="d-block w-50" src="\pisteski1.JPG" width="600" height="399" alt="..." />
+                    <Image className="card__image" src="/unsplash4.jpg" width='300px' height='300px' alt='ok' />
+                </div>
+
+
+                <div className="carousel-item">
+                    <Image className="card__image" src="/unsplash5.jpg" width='300px' height='300px' alt='ok' />
                 </div>
             </div>
 
