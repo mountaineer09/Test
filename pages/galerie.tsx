@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Image from 'next/image';
+import Footer from "../components/Footer";
 
 const Galeries = () => {
   return (
@@ -283,7 +284,9 @@ const Galeries = () => {
 
 
       </div>
+      <Footer></Footer>
     </div>
+
   );
 }
 

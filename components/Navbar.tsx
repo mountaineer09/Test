@@ -8,6 +8,7 @@ import Contacts from '../pages/contacts';
 import Documents from '../pages/documents';
 import Galeries from '../pages/galerie';
 import Partenaires from '../pages/partenaires';
+import Index from '../pages';
 
 
 
@@ -16,10 +17,10 @@ const Navbar = () => {
 
     <nav className="navbar navbar-expand-lg avbar navbar-dark bg-primary">
       <div className="container-fluid">
-        <a href="/logo11" className="navbar-left">
-          <Image className="card__image" src="/logo11.jpg" width='90px' height='90px' alt='ok' />
+        <a href="/index" className="navbar-left">
+          <Image className="card__image" src="/logo12.png" width='90px' height='90px' alt='ok' />
         </a>
-        <Link href="/index"><a className="navbar-brand" href="...">Chalet Lum D’Amont</a></Link>
+        <Link href="/chalet"><a className="navbar-brand" href="...">Chalet Lum D’Amont</a></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

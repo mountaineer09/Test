@@ -9,6 +9,7 @@ import Map from '../components/Map'
 import Caroussel from '../components/Caroussel'
 import Caroussel2 from '../components/Caroussel2'
 import Accordion from '../components/Accordion'
+import Accordion1 from '../components/Accordion1'
 import CalendarApi from '../components/CalendarApi'
 import photos from '../public/unsplash.jpg'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -59,7 +60,7 @@ export default function Index() {
           <h2 className="text-center">Offres & services</h2><br />
           <div className="row">
             <div className="col">
-              <Accordion></Accordion><br />
+              <Accordion1></Accordion1><br />
               <p>Dans le cadre d'une nature préservée, le Chalet Lum d’Amont est, au fil des saisons et à votre rythme, l’assurance d’un accueil personnalisé avec:</p><br />
 
               <p className="card-text">✔️  Du personnel sympathique et à votre écoutes<br /></p>
