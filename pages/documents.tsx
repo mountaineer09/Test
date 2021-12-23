@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import Image from 'next/image';
+import Image from "next/image";
 
 const Documents = () => {
     return (
@@ -12,7 +12,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <Image className="card__image" src="https://source.unsplash.com/300x225/?wave" alt="wave" />
+                            <Image className="card__image" src="/unsplash.jpg" width='300px' height='300px' alt='ok' />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -38,7 +38,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <Image className="card__image" src="https://source.unsplash.com/300x225/?beach" alt="beach" />
+                            <Image className="card__image" src="/unsplash2.jpg" width='300px' height='300px' alt='ok' />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -64,7 +64,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <Image className="card__image" src="https://source.unsplash.com/300x225/?mountain" alt="mountain" />
+                            <Image className="card__image" src="/unsplash3.jpg" width='300px' height='300px' alt='ok' />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -90,7 +90,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <img className="card__image" src="https://source.unsplash.com/300x225/?field" alt="field" />
+                            <Image className="card__image" src="/unsplash5.jpg" width='300px' height='300px' alt='ok' />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -116,7 +116,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <img className="card__image" src="https://source.unsplash.com/300x225/?water" alt="water" />
+                            <Image className="card__image" src="/unsplash6.jpg" width='300px' height='300px' alt='ok' />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -142,7 +142,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <img className="card__image" src="https://source.unsplash.com/300x225/?river" alt="river" />
+                            <Image className="card__image" src="/unsplash7.jpg" width='300px' height='300px' alt='ok' />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -168,7 +168,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <img className="card__image" src="https://source.unsplash.com/300x225/?kite" alt="kite" />
+                            <Image className="card__image" src="/unsplash8.jpg" width='300px' height='300px' alt='ok' />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -194,7 +194,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <img className="card__image" src="https://source.unsplash.com/300x225/?underwater" alt="underwater" />
+                            <Image className="card__image" src="/unsplash9.jpg" width='300px' height='300px' alt='ok' />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">
@@ -220,7 +220,7 @@ const Documents = () => {
 
                     <div className="card">
                         <div className="card__image-holder">
-                            <img className="card__image" src="https://source.unsplash.com/300x225/?desert" alt="desert" />
+                            <Image className="card__image" src="/unsplash9.jpg" width='300px' height='300px' alt='ok' />
                         </div>
                         <div className="card-title">
                             <a href="#" className="toggle-info btn">

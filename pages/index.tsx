@@ -10,7 +10,7 @@ import Caroussel from '../components/Caroussel'
 import Caroussel2 from '../components/Caroussel2'
 import Accordion from '../components/Accordion'
 import CalendarApi from '../components/CalendarApi'
-import photos from '../public/logo.png'
+import photos from '../public/unsplash.jpg'
 import 'bootstrap/dist/css/bootstrap.css'
 import { isTargetLikeServerless } from 'next/dist/server/config'
 
@@ -31,7 +31,7 @@ export default function Index() {
       <div className="card bg-dark text-white">
         <Image
           className="card-img swiper-slide"
-          src={photos} alt="ok"
+          src={photos} width='300px' height='300px' alt="ok"
         />
         <div className="card-img-overlay">
           <h5 className="card-title text-center col-md-8 col-xs-12 offset-md-2">BIENVENU AU CHALET LUM D’AMONT</h5>
@@ -62,13 +62,14 @@ export default function Index() {
               <Accordion></Accordion><br />
               <p>Dans le cadre d'une nature préservée, le Chalet Lum d’Amont est, au fil des saisons et à votre rythme, l’assurance d’un accueil personnalisé avec:</p><br />
 
-              <p className="card-text"><Image src={photos} width='100px' height='100px' alt='ok' />Du personnel sympathique et à votre écoutes<br /></p>
-              <p className="card-text"><Image src={photos} width='100px' height='100px' alt='ok' />Une capacitée d'accueil importante disponible toute l’année (65 lits)<br /></p>
-              <p className="card-text"><Image src={photos} width='100px' height='100px' alt='ok' />Une cuisine familiale de qualitée<br /></p>
-              <p className="card-text">5 chambres à 4 lits<br /></p>
-              <p className="card-text"><Image src={photos} width='100px' height='100px' alt='ok' />Des tarifs préférentiels sur les prix des remontées mécaniques de la station et sur les locations de skis et chaussures à la boutique Le Mouflon<br /></p>
-              <p className="card-text"><Image src={photos} width='100px' height='100px' alt='ok' />Des possibilitées de repas froids à emporter sur les pistes, le midi<br /></p>
-              <p className="card-text"><Image src={photos} width='100px' height='100px' alt='ok' />La location sur place de raquettes<br /></p>
+              <p className="card-text">✔️  Du personnel sympathique et à votre écoutes<br /></p>
+              <p className="card-text">✔️  Du personnel sympathique et à votre écoutes<br /></p>
+              <p className="card-text">✔️  Une capacitée d'accueil importante disponible toute l’année (65 lits)<br /></p>
+              <p className="card-text">✔️  Une cuisine familiale de qualitée<br /></p>
+              <p className="card-text">✔️  5 chambres à 4 lits<br /></p>
+              <p className="card-text">✔️  Des tarifs préférentiels sur les prix des remontées mécaniques de la station et sur les locations de skis et chaussures à la boutique Le Mouflon<br /></p>
+              <p className="card-text">✔️  Des possibilitées de repas froids à emporter sur les pistes, le midi<br /></p>
+              <p className="card-text">✔️  La location sur place de raquettes<br /></p>
             </div>
           </div>
 

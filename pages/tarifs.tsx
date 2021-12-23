@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Image from 'next/image';
+import Footer from "../components/Footer";
 
 const Tarifs = () => {
     return (
@@ -163,6 +164,7 @@ const Tarifs = () => {
                         Il est agréé par l’Education Nationale et dispose d’un partenariat avec la Caisse d’Allocations Familiales.</p><br />
                 </div>
             </div>
+            <Footer></Footer>
         </div>
 
 
