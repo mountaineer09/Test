@@ -5,7 +5,7 @@ import Index from '../pages';
 
 
 
-const Navbar = () => {
+const NavbarLibrary = () => {
     return (
 
         <nav className="navbar navbar-expand-lg avbar navbar-dark bg-primary">
@@ -50,4 +50,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default NavbarLibrary;

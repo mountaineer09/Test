@@ -45,6 +45,7 @@ const Navbar = () => {
                 <Link href="/partenaires"><li><a className="dropdown-item" href="#">Partenaires</a></li></Link>
                 <Link href="/galerie"><li><a className="dropdown-item" href="#">Galerie</a></li></Link>
                 <Link href="/documents"><li><a className="dropdown-item" href="#">Documents</a></li></Link>
+                <Link href="/library1"><li><a className="dropdown-item" href="#">Ma bibliothèque</a></li></Link>
               </ul>
             </li>
           </ul >
