@@ -20,20 +20,20 @@ const Navbar = () => {
         <a href="/index" className="navbar-left">
           <Image className="card__image" src="/logo12.png" width='90px' height='90px' alt='ok' />
         </a>
-        <Link href="/chalet"><a className="navbar-brand" href="...">Chalet Lum D’Amont</a></Link>
+        <Link href="/chalet"><a className="navbar-brand" href="#">Chalet Lum D’Amont</a></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link href="/home"><a className="nav-link active" aria-current="page" href="...">Home</a></Link>
+              <Link href="/home"><a className="nav-link active" aria-current="page" href="#">Home</a></Link>
             </li>
             <li className="nav-item">
-              <Link href="/lum"><a className="nav-link" href="...">Lum d’Amont</a></Link>
+              <Link href="/lum"><a className="nav-link" href="#">Lum d’Amont</a></Link>
             </li>
             <li className="nav-item">
-              <Link href='/tarifs'><a className="nav-link" href="...">Tarifs</a></Link>
+              <Link href='/tarifs'><a className="nav-link" href="#">Tarifs</a></Link>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
